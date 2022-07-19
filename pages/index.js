@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { PrimaryButton, SecondaryButton } from "../components/Button";
 
 export default function Home() {
   return (
@@ -10,7 +11,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <p className="text-red-500">Hello world</p>
+        <p>Hello Next.js</p>
+        <p className="description">This is a simple example of a Next.js App</p>
+
+        <div className="space-x-4 ml-2">
+          <SecondaryButton size="small"> cool</SecondaryButton>
+          <PrimaryButton size="medium">cool</PrimaryButton>
+        </div>
       </main>
     </div>
   );
