@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
+    <div className="">
+      <main className="">
         <h1>About Page</h1>
-        <p className={styles.description}>
+        <p className="">
           <Link href="/">
             <a>&larr; Go Back</a>
           </Link>
